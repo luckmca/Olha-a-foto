@@ -1,0 +1,214 @@
+/* resetando o CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+
+body{
+
+    width: 100%;
+    height: 800px;
+    background: url(../img/backgrounds/black-texture.png) ;
+    background-attachment: scroll;
+    background-size: cover;
+    color: rgb(251, 251, 252);    
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+#logomarca{
+
+    width: 200px;
+    height: 200px;
+    
+    
+}
+#logomarca img{
+
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.buttons:link{
+
+    color: whitesmoke;
+
+  
+
+}
+
+.btn{
+
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: rgb(111, 106, 106);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin: 15px;
+   
+    
+    
+
+}
+
+a{
+
+    text-decoration: none;
+    
+
+}
+
+.btn:visited{
+
+
+}
+
+
+.btn:hover{
+
+   color:white;  
+   transition: 1s;
+   
+   
+
+
+}
+
+h1{
+
+    margin: 30px;
+    text-align: center;
+    font-size: 35px;
+   
+}
+
+main{
+
+    display: flex;
+    justify-content: space-around;    
+
+    }
+
+#contatos{
+
+    
+
+    width: 48%;
+    height: 100%;
+           
+    
+}
+
+#contatos h3{
+
+    text-align: center;
+    margin: 10px;
+    font-size: 20px; 
+}
+
+#telefone, #instagram, #email{
+
+   
+    margin: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;   
+
+}
+#link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#link:hover{
+
+    color: rgb(226, 119, 95)
+}
+
+#telefone p, #instagram a, #email p{
+
+    
+}
+
+.ico{
+
+        background-color:aliceblue;
+        border-radius: 10%;
+   
+  
+}
+
+.desc-ico{
+
+    
+   padding-left: 3%;
+   font-size: 20px;
+    
+
+}
+    
+#enviar-mensagem{
+
+    
+
+    width: 48%;
+    height: 100%; 
+    box-sizing: border-box;   
+    margin-right: 3%;
+
+}
+
+#enviar-mensagem h3{
+
+    text-align: center;
+    margin: 10px;
+}
+
+#formulario-campos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+
+#formulario-campos * {
+
+    margin: 3px;
+    padding: 3px;   
+    font-size: 18px;
+}
+
+#enviar:hover{
+
+    background-color: gray;
+    color: white;
+    transition-delay: 100ms;
+    transition: 1s;
+}
+
+
+footer{
+
+    margin-top: 4%;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    
+}

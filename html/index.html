@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content="Lucas Misael">   
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl/owl.theme.default.css">
+    
+  
+    <title>Olha a Foto</title>
+</head>
+
+
+<!-- A se pensar:  Fonte, paleta de cores (talvez a paleta do google?), cores de fundo do site, tamanho da fonte (padrão 16px?) -->
+<!-- Falta importar a biblioteca do jquery para usar o carousel-->
+
+<body>
+
+    <header>
+        <nav>   <!-- Menu de navegação principal-->
+            
+           <div id="logomarca">
+
+            <img id=logo1 src="/img/Logo/logotransparente.png" alt="logomarca">  <!--imagem da logomarca-->           
+
+           </div>
+
+            <div class="buttons"> 
+                <a href="/html/index.html"><button class="btn">INÍCIO</button></a>
+                <a href="/html/ensaios.html"><button class="btn">GALERIA</button></a>
+                <a href="/html/contato.html"><button class="btn">CONTATO</button></a>
+            </div>
+        
+        </nav>
+    </header>
+
+    <h4 style="text-align: center; font-size: 30px;">“Um retrato não é feito na câmera, mas em ambos os lados dela.” </h4>
+
+   
+
+    <main>
+
+        <div id="carrossel">   <!--aqui vai entrar o carrossel jquery-->
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="/img/img-index/img (1).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (111).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (3).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (20).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (9).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (10).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (11).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (12).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (13).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (16).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (17).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (18).jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="/img/img-index/img (19).jpg" alt="" srcset="">
+                </div>
+            </div>
+
+           
+
+
+        </div>
+
+        
+    </main id="index-main">
+
+    <h1 style="text-align: center; font-size: 40px; margin-top: 0;">Feedbacks</h1>
+
+    <section id="cards">   <!-- nessa seção entram os 3 cards com fotos e um breve depoimento-->
+
+       
+
+        <div class="card card1">
+
+            <img src="/img/img-index/img1/img (14).jpg" alt="">
+            <p>"O ensaio foi super divertido, amei o resultado!" Marina.</p>
+
+        </div>
+
+        <div class="card card2">
+
+            <img src="/img/img-index/img1/img (2).png" alt="">
+            <p>"O Thiago foi paciente e compreensivo, deu muitas idéias... " Natalia.</p>
+
+        </div>
+
+        <div class="card card3">
+
+            <img src="/img/img-index/img1/img (5).jpg" alt="">
+            <p>"Ensaio leve, sem pressa. Só tenho a agradecer!" Débora.</p>
+
+        </div>
+       
+
+    </section>
+
+    <section id="texto-final">
+        <div id="coluna1">  
+            <div id="img-final">
+                <img src="/img/img-index/thiago.jpeg" alt="foto do fotografo">
+            </div>              
+            <!-- talvez um background css ao invés de uma imagem com texto?-->
+            <div id="texto-bio">
+                <h3>Sobre o Fotógrafo</h3>
+                <p>Thiago Evangelista, 30 anos, mineiro e fotógrafo por paixão. Busca, através da câmera, eternizar momentos únicos e expressar com imagens o que as palavras não conseguem dizer. </p>      <!-- texto a definir, pode ser genérico ou de autoria do fotógrafo-->
+            </div>
+        </div>
+
+            <div id="coluna2">
+                <div id="redes">  <!--links com botões estilizados para redes sociais-->
+
+                <h3>Redes Sociais</h3>    
+
+                <div id="whatsapp-index">
+                    <img src="/img/Icones/redes (2).ico" alt="">
+                    <a href="https://wa.me/message/7YWJ34LFN43EK1" target="blank">WhatsApp <br>(31) 9 9765-7356</a>
+                </div>
+                <div id="instagram-index">
+                    <img src="/img/Icones/redes (1).ico" alt="">
+                    <a href="https://www.instagram.com/ollha__afoto/" target="blank">Instagram @ollha_afoto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>  <!--finalização-->
+        <p>Copyright 2020 - Todos os direitos reservados. Dev por <a id="linkedin" href="https://www.linkedin.com/in/lucas-misael-07ab631bb/">Lucas Misael</a></p>
+    </footer>
+
+    <!-- Inserção do jquery carousel-->
+
+    
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
+
+    
+</body>
+</html>

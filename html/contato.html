@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content="Lucas Misael">  
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/style-contato.css">    
+    
+</head>
+<body>
+
+    <header>
+        <nav>   <!-- Menu de navegação principal-->
+            
+           <div id="logomarca">
+
+            <img id=logo1 src="/img/Logo/logotransparente.png" alt="logomarca">  <!--imagem da logomarca-->           
+
+           </div>
+
+            <div class="buttons"> 
+                <a href="/html/index.html"><button class="btn">INÍCIO</button></a>
+                <a href="/html/ensaios.html"><button class="btn">GALERIA</button></a>
+                <a href="/html/contato.html"><button class="btn">CONTATO</button></a>
+            </div>
+        
+        </nav>
+    </header>
+
+
+    <h1>Fale Conosco</h1>
+
+    <main>
+
+        <div id="contatos">
+
+            <h3>Canais de Atendimento</h3>
+
+            <div id="telefone">
+                      
+                <img class="ico" src="../img/Icones/telephone-symbol-button_icon-icons.com_73379.ico" alt="icone de um telefone">
+                <p class="desc-ico">(31) 9 9765-7356</p>
+
+            </div>
+                
+            <div id="instagram">
+
+                            
+                <img class="ico" src="../img/Icones/Instagram_Rounded_Solid_icon-icons.com_61560.ico" alt="icone do instagram">
+                <div class="desc-ico"><a id="link" href="https://www.instagram.com/ollha__afoto/" target="_blank">Instagram Oficial Olha a Foto</a></div>
+
+            </div>
+
+            <div id="email">
+
+                          
+                <img class="ico" src="../img/Icones/email-open-envelope-in-a-rounded-square_icon-icons.com_70497.ico" alt="icone de email">
+                <p class="desc-ico">olhaafoto7@gmail.com</p>
+
+            </div>
+
+        </div>
+
+        <div id="enviar-mensagem">
+
+            <h3>Envie uma mensagem</h3>
+
+            <form action="">
+                <fieldset id="formulario-campos">
+
+                    <legend>Por favor, preencha os campos abaixo:</legend>
+                    <label>Nome</label>
+                    <input type="text" required> 
+                    <label>Telefone</label>
+                    <input type="tel" name="tel" id="tel" required>
+                    <label>Mensagem</label>
+                    <textarea rows="10" cols="30" maxlength="1000" style="resize: none;"></textarea>
+                    <input type="submit" value="Enviar" id="enviar">                   
+
+
+                </fieldset>
+
+
+            </form>
+
+
+        </div>
+    </main>
+
+
+            <!--Botão do Whatsapp-->
+
+            <style> #imagem_whats{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right} #imagem_whats2{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right;display:none} @media only screen and (max-width: 999px) and (min-width: 100px){#imagem_whats{display:none}#imagem_whats2{display:block}}</style><img id="imagem_whats" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://web.whatsapp.com/send?phone=+5531997657356&amp;text=Olá!', '_blank');"><img id="imagem_whats2" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://api.whatsapp.com/send?phone=+5531997657356&amp;text=Olá!', '_blank');"><div class="preloader"> <div class="preloaderimg"></div></div>
+
+    <footer>  <!--finalização-->
+            <p>Copyright 2020 - Todos os direitos reservados. Dev por <a id="linkedin" href="https://www.linkedin.com/in/lucas-misael-07ab631bb/">Lucas Misael</a></p>
+    </footer>
+
+</body>
+</html>
